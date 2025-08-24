@@ -213,3 +213,10 @@ video {
   width: 24px;
   margin-right: 10px;
 }
+
+.icons img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin: 10px;
+}
