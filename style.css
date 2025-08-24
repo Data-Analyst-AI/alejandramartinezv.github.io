@@ -195,3 +195,21 @@ video {
   max-width: 1200px;     /* Limita el ancho total */
   margin: 0 auto;         /* Centra el contenedor */
 }
+
+.tech-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tech-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.tech-list img {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
