@@ -54,7 +54,8 @@ header p {
 }
 
 /* Section Titles */
-section h2 {
+section h2,
+section h3 {
   text-align: center;
   font-size: 2em;
   margin: 40px 0 20px;
@@ -99,7 +100,7 @@ section h2 {
 }
 
 .icons img {
-  width: 60px;
+  width: 80px;
   height: auto;
   transition: transform 0.3s ease;
   border-radius: 6px;
@@ -126,8 +127,8 @@ section h2 {
 }
 
 #video-cv video {
-  width: 320px;
-  max-width: 100%;
+  width: 80%;
+  max-width: 800px;
   height: auto;
   margin: 20px auto;
   display: block;
@@ -135,13 +136,16 @@ section h2 {
   box-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 
+@media (max-width: 768px) {
+  #video-cv video {
+    width: 100%;
+    height: auto;
+  }
+}
+
 /* Soft Skills */
 #soft-skills {
   padding: 40px 20px;
-  text-align: center;
-}
-
-#soft-skills h2 {
   text-align: center;
 }
 
@@ -201,6 +205,7 @@ section h2 {
   font-size: 1.2em;
   margin: 10px;
   color: #f0f0f0;
+  text-align: center;
 }
 
 .project-card p {
@@ -215,6 +220,25 @@ section h2 {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Dashboards */
+.dashboard-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+.dashboard-section iframe,
+.dashboard-section img {
+  width: 90%;
+  max-width: 900px;
+  height: 500px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 
 /* GitHub Stats */
@@ -288,15 +312,22 @@ section h2 {
     width: 90%;
   }
 
-  .dashboard-section iframe {
+  .dashboard-section iframe,
+  .dashboard-section img {
     height: 360px;
+    width: 100%;
   }
 
   .stats-grid img {
     max-width: 90%;
   }
 
-  #video-cv video {
+  #video-cv iframe {
     width: 100%;
+    height: 360px;
+  }
+
+  .icons img {
+    width: 70px;
   }
 }
