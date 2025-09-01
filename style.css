@@ -33,7 +33,7 @@ p {
 }
 
 /* Botón CTA */
-.cta {
+.cta, button.cta {
   background-color: #2E8B57;
   color: white;
   padding: 10px 20px;
@@ -41,6 +41,12 @@ p {
   text-decoration: none;
   display: inline-block;
   margin-top: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #3cb371;
 }
 
 /* Video CV */
@@ -49,6 +55,8 @@ iframe {
   margin: 20px auto;
   max-width: 100%;
   border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 /* Herramientas */
@@ -60,13 +68,19 @@ iframe {
   margin: 20px 0;
 }
 
-.icons img {
+.icon-small img {
   width: 60px;
   height: 60px;
   object-fit: contain;
   border-radius: 10px;
 }
 
+.icon-large img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin: 10px;
+}
 
 /* Estadísticas */
 .stats-grid {
@@ -113,6 +127,16 @@ footer {
   font-size: 0.9em;
 }
 
+/* Proyecto individual */
+.proyecto {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  color: #f0f0f0;
+}
+
 .proyecto img {
   width: 100%;
   max-width: 400px;
@@ -123,21 +147,12 @@ footer {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.proyecto {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: #1e1e1e;
-  border-radius: 10px;
-  color: #f0f0f0;
-}
-
 video {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-
+/* Galería de proyectos */
 .galeria {
   display: flex;
   flex-wrap: wrap;
@@ -161,6 +176,10 @@ video {
   overflow: hidden;
 }
 
+.proyecto-card:hover {
+  transform: scale(1.03);
+}
+
 .proyecto-card img {
   width: 100%;
   height: 180px;
@@ -168,10 +187,6 @@ video {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   margin-bottom: 15px;
-}
-
-.proyecto-card:hover {
-  transform: scale(1.03);
 }
 
 .proyecto-card h3 {
@@ -186,16 +201,18 @@ video {
   margin-bottom: 10px;
 }
 
+/* Contenedor de proyectos */
 .proyectos-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
   padding: 40px 20px;
-  max-width: 1200px;     /* Limita el ancho total */
-  margin: 0 auto;         /* Centra el contenedor */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* Lista de tecnologías */
 .tech-list {
   list-style: none;
   padding: 0;
@@ -214,13 +231,7 @@ video {
   margin-right: 10px;
 }
 
-.icons img {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
-  margin: 10px;
-}
-
+/* Dashboards */
 #proyectos-dashboard h2 {
   text-align: center;
   color: #005f99;
@@ -230,11 +241,7 @@ video {
 .dashboard-section {
   margin-bottom: 50px;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #2a2a2a;
   border-radius: 8px;
-}
-
-iframe {
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  color: #f0f0f0;
 }
