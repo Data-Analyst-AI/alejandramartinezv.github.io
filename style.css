@@ -62,13 +62,20 @@ section h3 {
   color: #f0f0f0;
 }
 
+/* Correcciones específicas */
+#projects h2,
+#statistics h2 {
+  text-align: center !important;
+}
+
 #projects p {
   text-align: center;
   max-width: 800px;
   margin: 0 auto 20px;
 }
 
-section h2::after {
+#projects h2::after,
+#statistics h2::after {
   content: "";
   display: block;
   width: 60px;
