@@ -8,4 +8,5 @@ With over 8 years of experience leading retail operations and a recent certifica
 
 🔗 [Visit the live portfolio](https://alejandramartinezv.github.io)  
 📫 [Connect on LinkedIn](https://www.linkedin.com/in/alejandramartinezv/)  
-📁 [View my CV](cv_data_analyst_retail_alejandra_mv)
+📁 [View my CV](DA_BI_Jr_Alejandra_mvk.pdf)
+🔗 [Dashboard de Ventas – TECNOMAXX en Power BI](https://app.powerbi.com/groups/me/reports/9797987a-cc94-4dcd-9940-931ccea4defa/bbe026bcdf901200b072?experience=power-bi)
