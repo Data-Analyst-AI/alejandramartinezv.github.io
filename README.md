@@ -8,8 +8,8 @@ With over 8 years of experience leading retail operations and a recent certifica
 
 ## 📌 Connect with Me
 
-🔗 [Live Portfolio](https://alejandramartinez.github.io/)  
+🔗 [Live Portfolio](https://data-analyst-ai.github.io/alejandramartinezv.github.io/)  
 💻 [GitHub Profile](https://github.com/Data-Analyst-AI)  
-🌐 [LinkedIn](https://www.linkedin.com/in/alejandra-martinez-vargas)  
+🌐 [LinkedIn](https://www.linkedin.com/in/alejandra-martinez-v-4aa51717a/)  
 📄 [View My CV](DA_BI_Jr_Alejandra_mvk.pdf)  
 📊 [Sales Dashboard – TECNOMAXX in Power BI](https://app.powerbi.com/groups/me/reports/9797987a-cc94-4dcd-9940-931ccea4defa/bbe026bcdf901200b072?experience=power-bi)
