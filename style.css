@@ -194,14 +194,17 @@ section h3 {
 
 .project-row {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* Alinea a la izquierda para que sigan el orden de arriba */
   gap: 30px;
   margin-bottom: 40px;
   flex-wrap: wrap;
+  max-width: 1000px; /* Ajusta esto al ancho total de tus 3 columnas */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-card {
-  width: 300px;
+  flex: 0 1 300px; /* El 300px fija el tamaño exacto */
   background-color: #1e1e1e;
   border-radius: 10px;
   box-shadow: 0 0 8px rgba(255,255,255,0.05);
